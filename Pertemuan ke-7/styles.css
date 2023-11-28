@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: rgb(117, 20, 220);
+    padding: 25px 0;
+}
+
+main {
+    display: flex;
+    margin: 60px;
+    gap: 20px;
+}
+
+section {
+    background-color: lightpink;
+    width: 70%;
+}
+
+section form {
+    margin: 30px;
+}
+
+aside {
+    background-color: lightsalmon;
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+aside img {
+    width: 150px;
+}
